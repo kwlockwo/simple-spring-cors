@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SimpleSpringCorsApplication<simple-spring-cors>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.simplespringcors.SimpleSpringCorsApplication",
+            "projectName": "simple-spring-cors",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
