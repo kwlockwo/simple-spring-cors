@@ -14,4 +14,4 @@ WORKDIR /service
 COPY --from=build /service/target/simple-spring-cors-0.0.1-SNAPSHOT.jar ./
 RUN mkdir "$HOME"/.ssh && chmod 700 "$HOME"/.ssh
 
-CMD [java, -jar, /service/simple-spring-cors-0.0.1-SNAPSHOT.jar]
+CMD ["java", "-jar", "/service/simple-spring-cors-0.0.1-SNAPSHOT.jar"]
